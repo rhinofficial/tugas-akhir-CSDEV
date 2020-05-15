@@ -1,0 +1,36 @@
+
+.button{
+	border: none;
+  	color: white;
+  	padding: 8px 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	border-radius: 8px;
+  	box-shadow: 2px 2px 4px grey;
+}
+.button:hover{
+	box-shadow: 0px 0px 0px;
+}
+#home{
+	background-color: #666633;
+}
+#home:hover{
+	background-color: #aaaa55;
+}
+
+#menu{
+	background-color: #b2b266;
+}
+#menu:hover{
+	background-color: #c3c388;
+}
+.poin{
+	color: #666633;
+	font-family: 'Alata';
+	font-size: 20px;
+	background-color: #f6f6ee;
+	border-radius: 20px;
+	padding: 20px;
+}
