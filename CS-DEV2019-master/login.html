@@ -2,29 +2,30 @@
 <html>
 
 <head>
-	<title>LOGIN</title>
+	<title>Log in</title>
 	<link rel="stylesheet" type="text/css" href="asset/css-framework.css">
 	<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body style="background-color: #e6ffb3"> <a style="font-family: 'Alata'" class="button" id="home" href="index.html">Home</a>
 	<br>
 	<form class="poin" style="text-align:center;width: 200px; margin: auto">
-		<div> 
-			<label for="Username">Username : 
-			<input type="text" name="Username" id="Password">
+		<div>
+			<label for="Username">Username :
+			<input type="text" name="Username" id="username">
 			</label>
 		</div>
 		<div>
-			<label for="Password">Password : 
-			<input type="Password" name="Password" id="Password">
+			<label for="Password">Password :
+			<input type="Password" name="Password" id="pass">
 			</label>
-		</div> 
+		</div>
 		<div style="margin-top: 20px">
-			<a style="font-family: 'Alata';text-align:center;" class="button" id="home" href="#">Login</a>
+			<button  id="login" style="background-color: #666633;font-family: 'Alata';text-align:center;" class="button">Login</button>
 		</div>
 	</form>
-
+	<script type="text/javascript" src="asset/main.js"></script>
 </body>
 
 </html>
